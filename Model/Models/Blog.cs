@@ -7,7 +7,7 @@ namespace Model.Models
 {
     public partial class Blog
     {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        //[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int BlogId { get; set; }
         public string Url { get; set; }
     }

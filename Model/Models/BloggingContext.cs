@@ -25,12 +25,13 @@ namespace Model.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            return;
+           // return;
             modelBuilder.Entity<Blog>(entity =>
             {
+                entity.HasKey(e => e.BlogId);
                 entity.Property(e => e.BlogId)
                     .HasColumnType("int(11)")
-                    .ValueGeneratedNever();
+                    .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Url)
                     .IsRequired()
