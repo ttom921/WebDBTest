@@ -5,7 +5,15 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCore00", "WebCore00\WebCore00.csproj", "{2E5C5908-BD0B-4A6D-B68A-0AFE6FDA3658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{DE01C6B7-E448-4D64-B79D-C5AF073AC32D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{DE01C6B7-E448-4D64-B79D-C5AF073AC32D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCore01", "WebCore01\WebCore01.csproj", "{DEFB29F1-183A-4A69-AE70-124D6325667C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web03", "Web03\Web03.csproj", "{E4E469B8-E8E6-4DE8-9136-4667CF2B93A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.MySql", "..\Pomelo.EntityFrameworkCore.MySql-master\src\EFCore.MySql\EFCore.MySql.csproj", "{CC7EFC80-46E3-4F91-9205-9739FBD431A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlTest", "MySqlTest\MySqlTest.csproj", "{F8B08FAB-079C-4C00-B6CE-708915E59757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{DE01C6B7-E448-4D64-B79D-C5AF073AC32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE01C6B7-E448-4D64-B79D-C5AF073AC32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE01C6B7-E448-4D64-B79D-C5AF073AC32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFB29F1-183A-4A69-AE70-124D6325667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFB29F1-183A-4A69-AE70-124D6325667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFB29F1-183A-4A69-AE70-124D6325667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFB29F1-183A-4A69-AE70-124D6325667C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E469B8-E8E6-4DE8-9136-4667CF2B93A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E469B8-E8E6-4DE8-9136-4667CF2B93A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E469B8-E8E6-4DE8-9136-4667CF2B93A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E469B8-E8E6-4DE8-9136-4667CF2B93A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7EFC80-46E3-4F91-9205-9739FBD431A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7EFC80-46E3-4F91-9205-9739FBD431A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7EFC80-46E3-4F91-9205-9739FBD431A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7EFC80-46E3-4F91-9205-9739FBD431A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B08FAB-079C-4C00-B6CE-708915E59757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B08FAB-079C-4C00-B6CE-708915E59757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B08FAB-079C-4C00-B6CE-708915E59757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B08FAB-079C-4C00-B6CE-708915E59757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
